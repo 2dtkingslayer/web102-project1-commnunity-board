@@ -1,0 +1,87 @@
+.card {
+    padding: 0;
+    padding-bottom: 1%;
+    border: solid black 1px;
+    margin: 1%;
+    width: 20%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.card .card-thumbnail {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    position: flex;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+}
+
+.card-title {
+    color: black;
+    font-size: 1.6rem;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    font-weight: bold;
+
+    @media (max-width: 1280px) {
+        font-size: 1.2rem; /* Set the font size for screens smaller than 1280px */
+    }
+    @media (max-width: 920px) {
+        font-size: 0.8rem; /* Set the font size for screens smaller than 920px */
+    }
+    @media (max-width: 666px) {
+        font-size: 0.6rem; /* Set the font size for screens smaller than 610px */
+    }
+}
+
+.card-text {
+    color: #5f6368;
+    font-size: 0.8rem;
+    @media (max-width: 920px) {
+        font-size: 0.6rem; /* Set the font size for screens smaller than 920px */
+    }
+    @media (max-width: 666px) {
+        font-size: 0.5rem; /* Set the font size for screens smaller than 610px */
+    }
+}
+
+.card-michelinrecommend {
+    color: #d40127;
+    font-size: 0.8rem;
+    font-weight: bold;
+    padding-bottom: 1.55%;
+    @media (max-width: 1280px) {
+        padding-bottom: 1.6%;
+    }
+    @media (max-width: 920px) {
+        font-size: 0.6rem; /* Set the font size for screens smaller than 920px */
+        padding-bottom: 5%;
+    }
+    @media (max-width: 666px) {
+        font-size: 0.5rem; /* Set the font size for screens smaller than 610px */
+        padding-bottom: 9%;
+    }
+}
+
+.star-image {
+    width: 0.8rem; /* Set the desired width */
+    height: 0.8rem; /* Set the desired height */
+    position: flex;
+    padding: 0;
+    margin: 0;
+    @media (max-width: 920px) {
+        width: 0.6rem;
+        height: 0.6rem;
+    }
+    @media (max-width: 666px) {
+        width: 0.5rem;
+        height: 0.5rem;
+    }
+}
+  

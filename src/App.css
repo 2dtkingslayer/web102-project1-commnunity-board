@@ -1,0 +1,40 @@
+#root {
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+
+@font-face {
+    font-family: 'Rocher';
+    src: url(https://assets.codepen.io/9632/RocherColorGX.woff2);
+}
+  
+h1 {
+    font-family: 'Rocher';
+    margin: 0;
+    padding: 0;
+    font-size: 4.8rem;
+}
+
+@font-palette-values --Purples {
+    font-family: Rocher;
+    base-palette: 6;
+}
+@font-palette-values --Mint {
+    font-family: Rocher;
+    base-palette: 7;
+}
+.purples {
+    font-palette: --Purples;
+}
+.mint {
+    font-palette: --Mint;
+}
+
+.card-container {
+    margin: 0;
+    display: flex; /* Store cards horizontal */
+    flex-wrap: wrap; /* Allow cards to wrap to new lines */
+    justify-content: center;
+    align-items: center;
+}
