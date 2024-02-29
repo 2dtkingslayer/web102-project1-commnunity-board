@@ -26,6 +26,8 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
+<img src='./public/readme1.png' title='Demo' width='' alt='Demo' />
+
 <img src='./public/readme2.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with GIPHY Capture 
